@@ -35,6 +35,18 @@ for (int i = 0; i < myArray.Length; i++)
 }
 Console.WriteLine();
 
+if (count == 0)
+{
+    Print(myArray);
+    Console.WriteLine(" - > []");
+}
+else
+{
+    Print(myArray);
+    Console.WriteLine(" - >");
+    Print(newArray);
+}
+
 // ----------
 void Print(string[] array)
 {
