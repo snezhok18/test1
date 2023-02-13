@@ -8,3 +8,10 @@
 string[] myArray = new string[3];
 int j = 0;
 int count = 0;
+
+Console.WriteLine("Введите несколько символов: ");
+myArray[0] = Console.ReadLine()!;
+Console.WriteLine("Введите несколько символов: ");
+myArray[1] = Console.ReadLine()!;
+Console.WriteLine("Введите несколько символов: ");
+myArray[2] = Console.ReadLine()!;
