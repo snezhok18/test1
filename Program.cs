@@ -15,3 +15,12 @@ Console.WriteLine("Введите несколько символов: ");
 myArray[1] = Console.ReadLine()!;
 Console.WriteLine("Введите несколько символов: ");
 myArray[2] = Console.ReadLine()!;
+
+for (int i = 0; i < myArray.Length; i++)
+{
+    if (myArray[i].Length < 4)
+    {
+        count += 1;
+    }
+}
+string[] newArray = new string[count];
