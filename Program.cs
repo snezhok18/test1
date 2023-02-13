@@ -24,3 +24,13 @@ for (int i = 0; i < myArray.Length; i++)
     }
 }
 string[] newArray = new string[count];
+
+for (int i = 0; i < myArray.Length; i++)
+{
+    if (myArray[i].Length < 4)
+    {
+        newArray[j] = myArray[i];
+        j++;
+    }
+}
+Console.WriteLine();
