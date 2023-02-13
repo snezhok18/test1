@@ -34,3 +34,12 @@ for (int i = 0; i < myArray.Length; i++)
     }
 }
 Console.WriteLine();
+
+// ----------
+void Print(string[] array)
+{
+    foreach (var i in array)
+    {
+        Console.Write("[{0}] ", i);
+    }
+}
